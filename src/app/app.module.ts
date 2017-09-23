@@ -1,4 +1,5 @@
 
+
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -18,6 +19,9 @@ import{AngularFireModule} from 'angularfire2';
 import { FIREBASE_CONFIG } from './../app.firebase.config';
 
 
+//Pages
+import { WalkthroughPage } from './../pages/walkthrough/walkthrough';
+
 
 //Import Firebase
 
@@ -25,7 +29,8 @@ import { FIREBASE_CONFIG } from './../app.firebase.config';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    WalkthroughPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +41,8 @@ import { FIREBASE_CONFIG } from './../app.firebase.config';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    WalkthroughPage
   ],
   providers: [
     StatusBar,
