@@ -1,16 +1,58 @@
-// http://ionicframework.com/docs/theming/
+/*Image Banner*/
+.banner-image{
+    background:url('/assets/images/fitness_banner.jpg') no-repeat;
+    height:200px;
+    background-size:contain;
+    padding:0;
+    margin:0;
+    
+}
 
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+
+/*Slider Menu*/
+
+/*background color of menu*/
+
+
+
+/*Menu background*/
+.mymenu {
+    background-color:#ED6969;
+  }
+  
+ 
+  
+  ///List is transparent
+  .mymenu .list {
+    background-color: transparent;
+    margin-top:-25px;
+  }
+  
+  /*side menu list items*/
+  .mymenu .item, .mymenu .item-content, .mymenu .item-complex{
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: rgba(0,0,0,0);
+    font-size:20px!important;
+  }
+
+  .button-ios{
+      background-color:transparent;
+  }
+
+  ion-icon{
+
+    font-size:2.0em;
+    margin-top:15px;
+  }
+
+  /*Icon styles*/
+
+     /*Side menu icons*/
+// ion-icon {
+//     display: inline-block;
+//     font-size: 1.5em!important;
+//     padding-right:5px;
+//     color:white!important;
+// }

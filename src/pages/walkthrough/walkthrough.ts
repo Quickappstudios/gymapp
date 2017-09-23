@@ -18,7 +18,7 @@ export class WalkthroughPage {
     console.log('ionViewDidLoad WalkthroughPage');
   }
 
-
+//goes to home dashboard
   gotoHome(){
     this.navCtrl.setRoot(HomePage);
   }
